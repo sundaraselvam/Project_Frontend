@@ -1,5 +1,5 @@
 import axios from 'axios';
-const VITE_API_URL = import.meta.env.VITE_API_URL;
+const VITE_API_URL= "https://project-backend-6blt.onrender.com/api";
 const API_URL = VITE_API_URL || 'http://localhost:5000/api';
 
 const api = axios.create({ baseURL: API_URL, withCredentials: false });
