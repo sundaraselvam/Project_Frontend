@@ -15,16 +15,8 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow sticky top-0 z-10">
       <div className="container mx-auto px-4 flex items-center justify-between py-4">
-        <Link
-          to="/"
-          className="flex items-center space-x-2 text-xl font-bold text-gray-800"
-        >
-          <img
-            src={require("../assets/logo.svg")}
-            alt="Logo"
-            className="h-10 w-10"
-          />
-          <span>JobPortal</span>
+        <Link to="/" className="text-xl font-bold text-gray-800">
+          JobPortal
         </Link>
         <div className="hidden md:flex space-x-6">
           <Link
