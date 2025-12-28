@@ -143,7 +143,7 @@ export default function ResumeViewer() {
             <div className="flex items-center space-x-4">
               {application.applicant?.profilePicture ? (
                 <img
-                  src={`http://localhost:5000${application.applicant.profilePicture}`}
+                  src={`https://project-backend-6blt.onrender.com${application.applicant.profilePicture}`}
                   alt="Profile"
                   className="w-16 h-16 rounded-full object-cover border-2 border-gray-200"
                 />
@@ -193,7 +193,7 @@ export default function ResumeViewer() {
                 ← Back to Applications
               </button>
               <a
-                href={`http://localhost:5000${application.resume}`}
+                href={`https://project-backend-6blt.onrender.com${application.resume}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
@@ -231,7 +231,7 @@ export default function ResumeViewer() {
 
             <div className="border rounded-lg overflow-hidden">
               <iframe
-                src={`http://localhost:5000${application.resume}#toolbar=0&navpanes=0&scrollbar=0`}
+                src={`https://project-backend-6blt.onrender.com${application.resume}#toolbar=0&navpanes=0&scrollbar=0`}
                 className="w-full h-[800px]"
                 title={`${application.applicant?.name || "Applicant"}'s Resume`}
                 style={{ border: "none" }}
