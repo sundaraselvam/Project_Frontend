@@ -1,0 +1,7 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#0EA5E9"/>
+  <g>
+    <circle cx="24" cy="24" r="10" fill="#fff"/>
+    <text x="24" y="29" text-anchor="middle" font-size="13" font-family="Arial, Helvetica, sans-serif" fill="#0EA5E9" font-weight="bold">MERN</text>
+  </g>
+</svg>
